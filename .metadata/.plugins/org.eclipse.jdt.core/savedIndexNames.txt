@@ -1,2 +1,0 @@
-INDEX VERSION 1.134+C:\Users\MICRO\OneDrive\Área de Trabalho\Projetos Spring\projetoSpring\arlon-microservices\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index

@@ -1,5 +1,0 @@
-package br.com.arlon.exceptions;
-
-public class ExceptionResponse {
-
-}
