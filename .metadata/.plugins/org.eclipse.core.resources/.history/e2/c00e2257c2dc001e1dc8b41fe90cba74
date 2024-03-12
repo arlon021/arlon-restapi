@@ -1,0 +1,11 @@
+package br.com.arlon.services;
+
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.logging.Logger;
+
+public class PersonServices {
+	
+	private static final AtomicLong counter = new AtomicLong();
+	private Logger logger = Logger.getLogger(PersonServices.class.getName());
+
+}

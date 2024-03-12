@@ -1,0 +1,25 @@
+package br.com.arlon.utils;
+
+public class NumberConverterUtils {
+	
+	private Double converterDouble(String number) {
+		if(number == null) {
+			return 0D;
+		} else if(isNumeric(number)) {
+			String str = number.replaceAll(",", ".");
+			return Double.parseDouble(str);
+		} else {
+			return 0.0;		
+		}
+	}
+
+	private boolean isNumeric(String number) {
+		if(number == null) {
+			return false;
+		}
+		String str = number.replaceAll(",", ".");
+		return str.matches("[+-]?[0-9]*\\.?[0-9]+");
+	}
+
+
+}

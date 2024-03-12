@@ -1,0 +1,7 @@
+package br.com.arlon.exceptions;
+
+import java.io.Serializable;
+
+public class ExceptionResponse  implements Serializable {
+
+}

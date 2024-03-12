@@ -1,0 +1,34 @@
+package br.com.arlon.math;
+
+import org.springframework.stereotype.Service;
+
+import br.com.arlon.utils.NumberConverterUtils;
+
+@Service
+public class SimpleMath {
+	
+	public Double sum(String numberO, String numberTwo) {
+		return NumberConverterUtils.converterDouble(numberO) + NumberConverterUtils.converterDouble(numberTwo);
+	}
+
+	public Double sub(String numberO, String numberTwo) {
+		return NumberConverterUtils.converterDouble(numberO) - NumberConverterUtils.converterDouble(numberTwo);	
+	}
+	
+	public Double mult(String numberO, String numberTwo) {
+		return NumberConverterUtils.converterDouble(numberO) * NumberConverterUtils.converterDouble(numberTwo);
+	}
+
+	public Double div(String numberO, String numberTwo) {
+		return NumberConverterUtils.converterDouble(numberTwo) / NumberConverterUtils.converterDouble(numberO);
+	}
+	
+	public Double media(String numberO, String numberTwo) {
+		return (NumberConverterUtils.converterDouble(numberTwo) + NumberConverterUtils.converterDouble(numberO)) / 2;
+	}
+
+	public Double raiz(String numberO) {
+		return Math.sqrt(NumberConverterUtils.converterDouble(numberO));
+	}
+
+}

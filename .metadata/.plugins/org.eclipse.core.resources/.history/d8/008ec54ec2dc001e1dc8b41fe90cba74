@@ -1,0 +1,9 @@
+package br.com.arlon.services;
+
+import java.util.concurrent.atomic.AtomicLong;
+
+public class PersonServices {
+	
+	private static final AtomicLong counter = new AtomicLong();
+
+}
